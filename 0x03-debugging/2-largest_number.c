@@ -1,5 +1,5 @@
-#include "holberton.h"
-delete when you have the chance
+#include "main.h"
+
 /**
  * largest_number - returns the largest of 3 numbers
  * @a: first integer
