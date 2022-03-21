@@ -1,5 +1,5 @@
 #include <stdio.h>
-del
+
 /*
  * main - check the code for School students.
  *
