@@ -13,6 +13,7 @@ void print_square(int n)
 	while (i < n && n > 0)
 	{
 		ii = 0;
+		
 		while (ii < n)
 		{
 			_putchar('#');
@@ -24,4 +25,5 @@ void print_square(int n)
 	}
 	if (i == 0)
 		_putchar('\n');
+
 }
