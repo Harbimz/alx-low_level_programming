@@ -1,22 +1,22 @@
 #include "main.h"
 del
 /**
- * puts2 - prints a string, followed by a new line,
- * @str: pointer to the string to print
- * Return: void
-*/
+ * puts_half - print second half of a string
+ * @str: char array string type
+ * Description: If odd number of chars, print (length - 1) / 2
+ */
 
-void puts2(char *str)
+void puts_half(char *str)
 {
-int i = 0;
-while (str[i] != '\0')
-{
-	if (i % 2 == 0)
+	int i;
+
+	for (i = 0; str[i] != '\0'; i++)
+		;
+
+	i++;
+	for (i /= 2; str[i] != '\0'; i++)
 	{
 		_putchar(str[i]);
 	}
-
-	i++;
-}
-_putchar('\n');
+	_putchar('\n');
 }
