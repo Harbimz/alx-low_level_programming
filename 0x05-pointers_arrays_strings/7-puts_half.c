@@ -1,5 +1,5 @@
 #include "main.h"
-del
+
 /**
  * puts_half - print second half of a string
  * @str: char array string type

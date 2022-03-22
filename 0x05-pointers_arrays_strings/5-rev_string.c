@@ -1,5 +1,5 @@
 #include "main.h"
-del
+
 /**
  * rev_string - prints reversed string, followed by a new line
  * @s: pointer to the string to print

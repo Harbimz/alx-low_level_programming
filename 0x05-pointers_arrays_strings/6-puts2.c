@@ -1,5 +1,5 @@
 #include "main.h"
-del
+
 /**
  * puts2 - prints a string, followed by a new line,
  * @str: pointer to the string to print
