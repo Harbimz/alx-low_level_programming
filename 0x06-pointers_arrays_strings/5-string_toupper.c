@@ -1,4 +1,5 @@
-#include "holberton.h"
+#include "main.h"
+
 /**
  * *string_toupper - capitalize a string
  * @str: pointer
